@@ -35,7 +35,7 @@ I made a two-layer PCB for the STM32H723, radio, servos and both motor drivers. 
 
 ![Wiring diagram for Goober](docs/images/PDB.svg)
 
-[KiCad 10 project](PCB/PDB.kicad_pro) · [Gerbers and drill file](PCB/gerbers.zip) · [Parts list](Goober-BOM.xlsx)
+[KiCad 10 project](PCB/PDB.kicad_pro) · [Gerbers and drill file](PCB/gerbers.zip) · [Parts list](bom.csv)
 
 ## First power-up
 
