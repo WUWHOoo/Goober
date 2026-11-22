@@ -19,6 +19,12 @@ That opens the viewer so you can move the camera around and look at the eight le
 
 To train the model, I relied on Google's CoLab. [Walking notebook](https://colab.research.google.com/github/WUWHOoo/Goober/blob/main/simulation/Train-Goober-Gait.ipynb) · [Starting policy ZIP](simulation/Goober-PPO-printed.zip) · [Robot ZIP](simulation/Goober-MuJoCo-legs.zip)
 
+### Watch Goober in MuJoCo
+
+- [Recording 1 · 12:41:11](simulation/Screen%20Recording%202026-11-20%20124111.mp4)
+- [Recording 2 · 12:46:42](simulation/Screen%20Recording%202026-11-20%20124642.mp4)
+- [Recording 3 · 14:14:22](simulation/Screen%20Recording%202026-11-20%20141422.mp4)
+
 ## What’s inside
 
 The Fusion file has the whole goose. If you just want to see how the hip works, the gearbox has its own STEP file. The actuator ZIP has the printable pieces, down to the little shim for the encoder. I still need to export the other parts as individual STEP files. [Fusion assembly](CAD/Goober.f3d) · [Gearbox STEP](CAD/Cyloidal%20Drive.step) · [Actuator STLs](CAD/Goober-Actuator-v3-STLs.zip)
