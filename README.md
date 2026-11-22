@@ -17,7 +17,7 @@ python -m mujoco.viewer --mjcf=goober.xml
 
 That opens the viewer so you can move the camera around and look at the eight leg joints.
 
-For walking, I use Colab. Pick a CPU runtime, run the notebook from the top, and upload both ZIPs when it asks for files. Look at the fall count first, then check whether Goober actually took steps or just slid forward. [Walking notebook](https://colab.research.google.com/github/WUWHOoo/Goober/blob/main/simulation/Train-Goober-Gait.ipynb) · [Starting policy ZIP](simulation/Goober-PPO-printed.zip) · [Robot ZIP](simulation/Goober-MuJoCo-legs.zip)
+To train the model, I relied on Google's CoLab. [Walking notebook](https://colab.research.google.com/github/WUWHOoo/Goober/blob/main/simulation/Train-Goober-Gait.ipynb) · [Starting policy ZIP](simulation/Goober-PPO-printed.zip) · [Robot ZIP](simulation/Goober-MuJoCo-legs.zip)
 
 ## What’s inside
 
@@ -29,7 +29,7 @@ I made a two-layer PCB for the STM32H723, radio, servos and both motor drivers. 
 
 ![Wiring diagram for Goober](docs/images/PDB.svg)
 
-The screw terminals in KiCad are placeholders. I still need to choose the ones I’ll solder in and check the current on the battery and servo traces before I order the board. [KiCad 10 project](PCB/PDB.kicad_pro) · [Gerbers and drill file](PCB/gerbers.zip) · [Parts list](Goober-BOM.xlsx)
+[KiCad 10 project](PCB/PDB.kicad_pro) · [Gerbers and drill file](PCB/gerbers.zip) · [Parts list](Goober-BOM.xlsx)
 
 ## First power-up
 
