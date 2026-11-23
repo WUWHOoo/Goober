@@ -4,9 +4,11 @@ Goober is a goose I’m building because I want a little robot that’ll wander 
 
 ![Goober in Fusion](docs/images/assembly.png)
 
-There are three RDS3245 servos in each leg. The hip also has a 5010 brushless motor and a cycloidal 30:1 gearbox that I designed. When I weighed the parts, the thigh came out to 20 g and the tibia was 18 g. One servo weighs 60 g, more than both prints together. Those are the numbers I’m using in the sim now. The head and neck are still my best guess.
+There are three RDS3245 servos in each leg. The hip also has a 5010 brushless motor and a cycloidal 30:1 gearbox that I designed. When I weighed the parts, the thigh came out to 20 g and the tibia was 18 g. One servo weighs 60 g, more than both prints together. Those are the numbers I’m using in the sim now that I'll talk about in the next point. The head and neck are just my best estimates. The total weight of this little thing is around 2KG.
 
-## Try the sim
+## ☆ THE SIMULATION ☆
+
+We live in a total simulation.
 
 Unzip the [Goober model](simulation/Goober-MuJoCo-legs.zip). Open a terminal in the folder where you can see both `goober.xml` and `meshes`. Run these two lines there.
 
