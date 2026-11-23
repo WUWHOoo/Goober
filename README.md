@@ -1,10 +1,10 @@
 # Goober the RoboGoose
 
-Goober is a goose I’m building because I want a little robot that’ll wander around and quack. I’ve printed parts of him already. I’m still figuring out the walking part in MuJoCo.
+Goober is a goose I’m building because I want a little robot that’ll wander around and quack. My school is filled with groups of geese, so how can I assimilate into their society? You become them.
 
 ![Goober in Fusion](docs/images/assembly.png)
 
-There are three RDS3245 servos in each leg. The hip also has a 5010 brushless motor and a cycloidal gearbox I printed. When I weighed the parts, the thigh came out to 20 g and the tibia was 18 g. One servo weighs 60 g, more than both prints together. Those are the numbers I’m using in the sim now. The head and neck are still my best guess.
+There are three RDS3245 servos in each leg. The hip also has a 5010 brushless motor and a cycloidal 30:1 gearbox that I designed. When I weighed the parts, the thigh came out to 20 g and the tibia was 18 g. One servo weighs 60 g, more than both prints together. Those are the numbers I’m using in the sim now. The head and neck are still my best guess.
 
 ## Try the sim
 
@@ -27,9 +27,9 @@ To train the model, I relied on Google's CoLab. [Walking notebook](https://colab
 
 ## What’s inside
 
-The Fusion file has the whole goose. If you just want to see how the hip works, the gearbox has its own STEP file. The actuator ZIP has the printable pieces, down to the little shim for the encoder. I still need to export the other parts as individual STEP files. [Fusion assembly](CAD/Goober.f3d) · [Gearbox STEP](CAD/Cyloidal%20Drive.step) · [Actuator STLs](CAD/Goober-Actuator-v3-STLs.zip)
+The Fusion file has the whole goose. If you just want to see how the hip works, the gearbox has its own STEP file. The actuator ZIP has the printable pieces, down to the little shim for the encoder. [Fusion assembly](CAD/Goober.f3d) · [Gearbox STEP](CAD/Cyloidal%20Drive.step) · [Actuator STLs](CAD/Goober-Actuator-v3-STLs.zip)
 
-I made a two-layer PCB for the STM32H723, radio, servos and both motor drivers. Each side gets its own 8.4 V buck converter for the leg servos. A third converter supplies 5 V. All three run off the same battery.
+I made a two-layer 2.5 oz copper PCB for the STM32H723, radio, servos and both motor drivers. Each side gets its own 8.4 V buck converter for the leg servos and a third converter supplies 5 V. 
 
 ![Goober’s PCB from above](docs/images/pcb.png)
 
